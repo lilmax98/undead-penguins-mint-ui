@@ -220,7 +220,7 @@ const Home = (props: HomeProps) => {
     const [isSoldOut, setIsSoldOut] = useState(false);
     const [payWithSplToken, setPayWithSplToken] = useState(false);
     const [price, setPrice] = useState(666);
-    const [priceLabel, setPriceLabel] = useState<string>("PixelPenguins");
+    const [priceLabel, setPriceLabel] = useState<string>("$BLD");
     const [whitelistPrice, setWhitelistPrice] = useState(0);
     const [whitelistEnabled, setWhitelistEnabled] = useState(false);
     const [isBurnToken, setIsBurnToken] = useState(false);
